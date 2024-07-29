@@ -110,7 +110,7 @@ textarea::placeholder{
     position: relative;
   }
   .section-header{
-    margin-top: 0px;
+    margin-top: 90px;
     margin-bottom: 0px;
   }
   .headtext{
@@ -127,7 +127,14 @@ textarea::placeholder{
   }
   .imghead{
     margin-top: 0px;
+    width: 100%;
+    height: 80%;
+    border-radius:100%;
   }
+  .social-link {
+    margin-top: 38px;
+    margin-left: 33px;
+}
   p{
     font-size: 18px;
     font-family: open sans, sans-serif;
