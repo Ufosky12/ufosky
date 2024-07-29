@@ -37,7 +37,8 @@ span{
   align-items: center !important;
   font-size: 18px;
 }
-.contact-nav{
+
+.contact{
   margin-left: 810px;
 }
 .navbar-toggler-icon{
@@ -139,4 +140,8 @@ textarea::placeholder{
     font-weight: 900;
     align-items: center !important;
   }
+  .contact{
+    margin-left: 0px;
+  }
+  
 }
