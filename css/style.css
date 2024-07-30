@@ -1,7 +1,9 @@
 body{
   background-color: rgb(1, 29, 14) !important;
-  position:fixed;
   
+}
+.main-body{
+  position: fixed;
 }
 @font-face {
   font-family: 'Seven Segment';
@@ -24,7 +26,15 @@ p{
 span{
   color: rgb(126, 237, 126);
 }
-
+.wave{
+  animation-name: waves;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes waves{
+  from {margin-left: 20px;}
+  to {margin-right: 10px;}
+}
 .imghead{
   width: 70%;
   height: 70%;
@@ -40,6 +50,15 @@ span{
 
 .contact{
   margin-left: 810px;
+}
+.build{
+  animation-name: builds;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes builds{
+  from {margin-top: 100px;}
+  to {margin-bottom: 50px;}
 }
 .navbar-toggler-icon{
   position:fixed;
@@ -61,6 +80,9 @@ span{
   right: 2px;
   font-weight: 900;
 }
+.bi-x-circle:hover{
+  color: rgb(126, 237, 126);
+}
 .social-link {
   margin-top: 20px;
   margin-left: 90px;
@@ -73,6 +95,10 @@ span{
   border-radius: 40%;
   background-color: rgb(126, 237,126);
   font-family: Seven Segment, sans-serif !important;
+}
+.link:hover{
+  color: rgb(126, 237, 126);
+  background-color: white;
 }
 
 .section-header{
@@ -104,6 +130,15 @@ textarea::placeholder{
 }
 .select{
   color: gray !important;
+}
+.imgheads{
+  width: 100%;
+  height: 80%;
+}
+.personal ul a{
+  list-style-type: none;
+  text-decoration: none;
+  color: rgb(126, 237,126);
 }
 @media (max-width: 1200px) {
   body {
